@@ -1,0 +1,27 @@
+
+.shop__section {
+  display: flex;
+  position: absolute;
+  background-color: rgb(181, 157, 146);
+  width: 100%;
+  background-image: url(./background.jpg);
+  background-size: 300px;
+  background-repeat: repeat;
+  background-blend-mode:color-burn;
+}
+
+.shop__container {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 25rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+  border-radius: 0.3em;
+  margin: 5em 2em;
+  padding: 2.5em;
+  width: 100%;
+  background: white;
+  justify-items: center;
+  
+}
+
+
